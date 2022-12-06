@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PanIntegralus/tux.git"
+    "url": "git+https://github.com/PanIntegralus/boto.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PanIntegralus/tux/issues"
+    "url": "https://github.com/PanIntegralus/boto/issues"
   },
-  "homepage": "https://github.com/PanIntegralus/tux#readme"
+  "homepage": "https://github.com/PanIntegralus/boto#readme"
 }
