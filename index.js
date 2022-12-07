@@ -40,7 +40,11 @@ for (const file of commands)
 // Create player
 client.player = new Player(client, {
   autoSelfDeaf: true,
+  initialVolume: 100,
   leaveOnEmpty: false,
+  leaveOnEnd: false,
+  leaveOnStop: false,
+  spotifyBridge: true,
   ytdlOptions: {
       filter: 'audioonly',
       quality: 'highestaudio',
