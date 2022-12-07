@@ -7,6 +7,11 @@ exports.run = async (client, message, args) => {
         return;
     }
 
+    if (client.player.isPaused())
+    {
+        await message.reply("`❌` Player is already paused.")
+    }
+
     queue.setPaused(true);
     
     message.reply("`⏸` Player has been paused.")
