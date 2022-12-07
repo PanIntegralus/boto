@@ -1,4 +1,5 @@
 const { Client, GatewayIntentBits, Collection } = require("discord.js");
+const { Player } = require("discord-player");
 
 const fs = require("fs");
 
@@ -35,5 +36,16 @@ for (const file of commands)
   console.log(`Attempting to load command ${commandName}`);
   client.commands.set(commandName, command);
 };
+
+// Create player
+client.player = new Player(client, {
+  autoSelfDeaf: true,
+  leaveOnEmpty: false,
+  ytdlOptions: {
+      filter: 'audioonly',
+      quality: 'highestaudio',
+      highWaterMark: 1 << 25
+  }
+});
 
 client.login(client.config.token);
