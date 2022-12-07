@@ -46,7 +46,7 @@ client.player = new Player(client, {
   leaveOnStop: false,
   spotifyBridge: true,
   ytdlOptions: {
-      filter: 'audioonly',
+      filter: 'audio',
       quality: 'highestaudio',
       highWaterMark: 1 << 25
   }
