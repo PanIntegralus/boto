@@ -9,9 +9,8 @@ exports.run = async (client, message, args) => {
 
     const currentSong = queue.current;
 
-    queue.skip();
-
-    message.reply("`⏩` Song skipped.")
+    await queue.skip();
+    await message.reply("`⏩` Song skipped.")
 };
 
 exports.name = "skip";

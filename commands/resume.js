@@ -12,9 +12,8 @@ exports.run = async (client, message, args) => {
         await message.reply("`❌` Player is not paused.");
     }
 
-    queue.setPaused(false);
-    
-    message.reply("`⏯` Player has been resumed.");
+    await queue.setPaused(false);
+    await message.reply("`⏯` Player has been resumed.");
 };
 
 exports.name = "resume";

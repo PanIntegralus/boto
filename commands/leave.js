@@ -1,7 +1,7 @@
 exports.run = async (client, message, args) => {
     const queue = client.player.getQueue(message.guild);
 
-    queue.destroy();
+    await queue.destroy();
     await message.reply("`✅` Player has disconnected.")
 };
 

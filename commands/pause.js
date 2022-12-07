@@ -12,9 +12,8 @@ exports.run = async (client, message, args) => {
         await message.reply("`❌` Player is already paused.")
     }
 
-    queue.setPaused(true);
-    
-    message.reply("`⏸` Player has been paused.")
+    await queue.setPaused(true);   
+    await message.reply("`⏸` Player has been paused.")
 };
 
 exports.name = "pause";
