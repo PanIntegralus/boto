@@ -11,7 +11,7 @@ exports.run = async (client, message, args) => {
         return `${i + 1})  \`[${song.duration}]\` ${song.title} - <@${song.requestedBy.id}>`;
     }).join("\n");
 
-    await message.reply(queueString);
+    await message.reply(`Current song: ${queue.current}\n\nNext songs: ${queueString}`);
 };
 
 exports.name = "queue";
