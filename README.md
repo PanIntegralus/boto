@@ -1,4 +1,4 @@
-<h1 align="center">Boto</h1>
+<h1 align="center">Bōto</h1>
 <p align="center">Another simple Discord music bot.</p>
 
 
