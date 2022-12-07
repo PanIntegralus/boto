@@ -3,7 +3,7 @@ exports.run = (client, message, args) => {
     const commandName = args[0];
 
     // Check if user is bot owner
-    if (!client.user.id == client.config.botOwnerID.parseInt())
+    if (!client.user.id == parseInt(client.config.botOwnerID))
     {
         return message.reply("`❌` This command can only be used by the bot owner.");
     };
