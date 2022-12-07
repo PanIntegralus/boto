@@ -6,7 +6,7 @@
 I started this project because I couldn't find any simple music bot that worked the way I want it to. You are free to do whatever you want with the project code, I have uploaded it on GitHub for personal convenience.
 
 ## ✨ Features
-- [x] Basic music control commands (play, pause, skip...)
+- [x] Basic music control commands _(play, pause, skip...)_
 - [x] Queue system _(still work in progress)_
 - [ ] Playlist support _(planned)_
 
