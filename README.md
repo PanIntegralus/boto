@@ -8,6 +8,7 @@ I started this project because I couldn't find any simple music bot that worked 
 ## ✨ Features
 - [x] Basic music control commands (play, pause, skip...)
 - [x] Queue system _(still work in progress)_
+- [ ] Playlist support _(planned)_
 
 ## ⬇ Installation
 ### Using the source code
