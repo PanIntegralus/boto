@@ -1,1 +1,1 @@
-Discord bot.
+Simple music Discord bot.
