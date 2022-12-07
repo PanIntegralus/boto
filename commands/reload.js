@@ -12,7 +12,7 @@ exports.run = (client, message, args) => {
     if (!client.commands.has(commandName))
     {
         return message.reply("`❌` That command does not exist.");
-    }
+    };
 
     // the path is relative to the *current folder*, so just ./filename.js
     delete require.cache[require.resolve(`./${commandName}.js`)];
