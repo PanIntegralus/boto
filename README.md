@@ -10,6 +10,10 @@ I started this project because I couldn't find any simple music bot that worked 
 - [x] Queue system _(still work in progress)_
 - [ ] Playlist support _(planned)_
 
+## ⚠️ Dependencies
+- FFmpeg
+- Node dependencies _(npm install)_
+
 ## ⬇ Installation
 ### Using the source code
 The project is at a VERY early stage, but right now it can be executed if you do the follwing steps:
