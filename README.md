@@ -12,7 +12,7 @@ I started this project because I couldn't find any simple music bot that worked 
 
 ## ⚠️ Dependencies
 - FFmpeg
-- Node dependencies _(npm install)_
+- Node dependencies _(from package.json)_
 
 ## ⬇ Installation
 ### Using the source code
