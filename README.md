@@ -1,3 +1,5 @@
+⚠️ I'm not working on this anymore, but i'll keep it public for archiving purposes.
+
 <h1 align="center">Bōto <i>ぼうと</i></h1>
 <p align="center">Another simple Discord music bot.</p>
 
